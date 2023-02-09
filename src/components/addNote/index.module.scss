@@ -1,0 +1,39 @@
+.AddNote {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      width: 360px;
+  
+      input {
+        width: 300px;
+        padding: 12px 6px;
+        border-radius: 8px;
+        border: 0;
+        cursor: pointer;
+        box-shadow: inset 3px 3px 4px rgba(0, 0, 0, 0.618);
+
+      }
+
+      .addNote {
+        width: fit-content;
+        padding: 6px 12px;
+        box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.618);
+
+      }
+    }
+  }
+  
+  @media screen and (min-width: 676px) {
+    .AddNote {
+      width: 35%;
+    }
+  }

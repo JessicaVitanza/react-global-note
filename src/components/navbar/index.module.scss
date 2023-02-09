@@ -1,0 +1,20 @@
+.Navbar {
+    padding: 0 20px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+  
+    h2 {
+      cursor: pointer;
+    }
+
+    button {
+      box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.618);
+      cursor: pointer;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 8px;
+    }
+  }

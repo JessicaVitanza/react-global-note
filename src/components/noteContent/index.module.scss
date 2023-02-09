@@ -1,0 +1,28 @@
+.NoteContent {
+    width: 100%;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    padding: 20px;
+    margin-top: 100px;
+
+    input {
+      width: 300px;
+      padding: 12px 6px;
+      border-radius: 8px;
+      border: 0;
+      box-shadow: inset 3px 3px 4px rgba(0, 0, 0, 0.618);
+      cursor: pointer;
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media screen and (min-width: 676px) {
+    .NoteContent {
+      width: 65%;
+      margin-top: -20px;
+    }
+  }

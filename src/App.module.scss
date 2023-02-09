@@ -1,0 +1,17 @@
+.App {
+  
+  main {
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 676px) {
+  .App {
+    
+  }
+}

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat|Permanent+Marker");
+
+.NoteItem {
+  background: #ffe121;
+  max-width: 260px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 3px;
+  font-family: "Caveat", cursive;
+  font-size: 22px;
+  transform: rotate(4deg);
+  transition: transform 0.2s ease-in;
+  box-shadow: 0 30px 60px -30px #4e7467;
+  text-align: center;
+  padding: 20px;
+
+  &:after {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-width: 21px 0 0 21px;
+    border-style: solid;
+    border-color: #7fa99b  transparent transparent #ffe121;
+    transition: border-width 0.2s ease-in;
+    box-shadow: -4px 4px 8px -3px #c4aa00;
+  }
+
+  &:hover {
+    transform: rotate(0);
+  }
+  &:hover:after {
+    border-width: 0;
+  }
+
+  h1 {
+    font-size: 2.1rem;
+  }
+
+  
+    button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+      font-family: "Caveat", cursive;      
+      font-size: 1.3rem;
+      transition: all .35s;
+      color: #c4aa00;
+    }
+
+    button:hover {
+      color: black;
+    }
+  }
